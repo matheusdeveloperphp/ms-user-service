@@ -1,0 +1,9 @@
+package com.solucaotecnologia.user_service.repositories;
+
+import com.solucaotecnologia.user_service.models.UserModel;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.UUID;
+
+public interface UserRepository extends JpaRepository<UserModel, UUID> {
+}
